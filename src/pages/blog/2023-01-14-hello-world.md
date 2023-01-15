@@ -10,12 +10,8 @@ tags:
 ---
 T﻿his is my first post on this new blog site.
 
-
-
 C﻿ode:
 
-
-
-```
+```python
 print('Hello World')
 ```
