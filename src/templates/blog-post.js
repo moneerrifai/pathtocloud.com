@@ -5,6 +5,9 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+
+deckDeckGoHighlightElement();
 
 // eslint-disable-next-line
 export const BlogPostTemplate = ({

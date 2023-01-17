@@ -10,8 +10,27 @@ tags:
 ---
 T﻿his is my first post on this new blog site.
 
-C﻿ode:
+`print('Hello baby Leila!')`
 
-```python
-print('Hello World')
-```
+    def printfun():
+      print('Hello baby!')
+
+Howdy!
+
+
+    import math
+    # Assign values to x and n
+    x = 4
+    n = 3
+    
+    # Method 1
+    power = x ** n
+    print("%d to the power %d is %d" % (x, n, power))
+    
+    # Method 2
+    power = pow(x, n)
+    print("%d to the power %d is %d" % (x, n, power))
+    
+    # Method 3
+    power = math.pow(2, 6.5)
+    print("%d to the power %d is %5.2f" % (x, n, power))
