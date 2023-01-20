@@ -3,7 +3,6 @@ templateKey: index-page
 title: Your Path to Cloud Starts Here 🚀
 image: /img/home-jumbotron.jpg
 heading: Your Path to Cloud Starts Here
-subheading: hi
 mainpitch:
   title: Your Path to Cloud Starts Here
   description: >
