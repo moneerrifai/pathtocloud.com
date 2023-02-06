@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Your Path to Cloud Starts Here 🚀
+title: Join the Cloud Revolution 🚀
 image: /img/home-jumbotron.jpg
 heading: Your Path to Cloud Starts Here
 mainpitch:

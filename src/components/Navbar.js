@@ -34,13 +34,8 @@ const Navbar = () => {
                 re-write that makes this unneccesary.
              */}
             <li className="navbar-item" style={{padding: "0px"}}>
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/products">
-              Products
+            <Link className="navbar-item" to="/ebook">
+              Free eBook
             </Link>
             </li>
             <li className="navbar-item" style={{padding: "0px"}}>
@@ -49,27 +44,15 @@ const Navbar = () => {
             </Link>
             </li>
             <li className="navbar-item" style={{padding: "0px"}}>
+              <Link className="navbar-item" to="/about">
+                About
+              </Link>
+            </li>
+            <li className="navbar-item" style={{padding: "0px"}}>
             <Link className="navbar-item" to="/contact">
               Contact
             </Link>
             </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/contact/examples">
-              Form Examples
-            </Link>
-            </li>
-          <li className="navbar-end has-text-centered">
-            <a
-              className="navbar-item"
-              href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="icon">
-                <img src={github} alt="Github" />
-              </span>
-            </a>
-          </li>
         </ul>
       </div>
     </nav>
